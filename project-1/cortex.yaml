@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: gitops-test-1
+  title: gitops-test-1-withoutOrg
   description: test-desc
   x-cortex-tag: gitops-test-1
   x-cortex-type: service
