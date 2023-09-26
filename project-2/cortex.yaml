@@ -1,0 +1,25 @@
+openapi: 3.0.1
+info:
+  title: unity-ui
+  description: Browser-based web application that provides the primary user interface
+    for the Unity system.
+  x-cortex-tag: unity-ui
+  x-cortex-type: service
+  x-cortex-groups: []
+  x-cortex-issues:
+    jira:
+      projects:
+      - UNITY
+  x-cortex-owners:
+  - type: EMAIL
+    email: sushmita.vijayarajan@dev.workdaybt.com
+    description: Accountable Manager
+  - name: epx-unity
+    type: GROUP
+    provider: CORTEX
+  x-cortex-dependency:
+  - tag: test-chef-role
+    description: ""
+  x-cortex-custom-metadata:
+    lastVerifiedByEmail: chethana.sridharan@workday.com
+    lastVerifiedByTimestamp: 2023-06-14T07:41:57.768014Z

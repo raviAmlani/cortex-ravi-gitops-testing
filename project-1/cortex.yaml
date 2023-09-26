@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: gitops-test-1
+  description: test-desc
+  x-cortex-tag: gitops-test-1
+  x-cortex-type: service
+  x-cortex-groups: []
+  x-cortex-issues:
+    jira:
+      projects:
+      - UNITY
+  x-cortex-owners:
+  - type: EMAIL
+    email: ravi.amlani@dev.workdaybt.com
+    description: Accountable Manager
+  - name: epx-unity
+    type: GROUP
+    provider: CORTEX
