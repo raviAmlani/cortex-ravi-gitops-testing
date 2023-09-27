@@ -2,7 +2,7 @@ openapi: 3.0.1
 info:
   title: unity-ui
   description: Browser-based web application that provides the primary user interface
-    for the Unity system. This description also changed through UI but this shouldn't modify anything on Cortex UI except for a new commit info.
+    for the Unity system. This description is changed through GitOps but this shouldn't modify anything on Cortex UI except for a new commit info and a PR.
   x-cortex-tag: unity-ui
   x-cortex-type: service
   x-cortex-groups: []
