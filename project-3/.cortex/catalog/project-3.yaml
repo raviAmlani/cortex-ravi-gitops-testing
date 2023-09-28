@@ -1,0 +1,32 @@
+openapi: 3.0.1
+info:
+  title: gitops-project-3
+  description: This description is not blank.
+  x-cortex-tag: gitops-project-3
+  x-cortex-type: service
+  x-cortex-issues:
+    jira:
+      projects:
+      - UNITY
+  x-cortex-git:
+    github:
+      repository: raviAmlani/cortex-ravi-gitops-testing
+  x-cortex-oncall:
+    pagerduty:
+      id: PD-SERVICE-ID
+      type: SCHEDULE
+  x-cortex-owners:
+  - type: SLACK
+    channel: cortex-dev
+    notificationsEnabled: true
+  - type: EMAIL
+    email: ravi.amlani@dev.workdaybt.com
+    description: Accountable Manager
+  - name: gitops-team-1
+    type: GROUP
+    provider: CORTEX
+  x-cortex-slack:
+    channels:
+    - name: cortex-dev
+      notificationsEnabled: true
+      description: This is a description for the cortex-dev Slack channel
